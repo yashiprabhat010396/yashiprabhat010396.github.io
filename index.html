@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yashi Cars | Premium Car Sales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .car-card {
+            background: white;
+            margin: 15px auto;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .car-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚗 Yashi Cars</h1>
+    <p>Your Trusted Car Dealer</p>
+</header>
+
+<nav>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+</nav>
+
+<div class="container">
+    <h2>Featured Cars</h2>
+
+    <div class="car-card">
+        <img src="https://source.unsplash.com/400x300/?car" alt="Car">
+        <h3>Luxury Sedan</h3>
+        <p>Comfortable and powerful family car.</p>
+        <div class="price">₹12,00,000</div>
+    </div>
+
+    <div class="car-card">
+        <img src="https://source.unsplash.com/400x300/?sports-car" alt="Car">
+        <h3>Sports Car</h3>
+        <p>High performance and stunning design.</p>
+        <div class="price">₹25,00,000</div>
+    </div>
+
+    <div class="car-card">
+        <img src="https://source.unsplash.com/400x300/?suv" alt="Car">
+        <h3>Premium SUV</h3>
+        <p>Spacious and perfect for long journeys.</p>
+        <div class="price">₹18,00,000</div>
+    </div>
+</div>
+
+<footer>
+    © 2026 Yashi Cars. All Rights Reserved.
+</footer>
+
+</body>
+</html>
