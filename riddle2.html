@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle 2</title>
+<style>body{font-family:Arial;text-align:center;padding:40px;}</style>
+<script>
+function checkAnswer(){
+let answer=document.getElementById("answer").value.toLowerCase();
+if(answer==="candle"){
+window.location.href="riddle3.html";
+}else{alert("Wrong answer! Try again.");}
+}
+</script>
+</head>
+<body>
+<h2>Riddle 2</h2>
+<p>I’m tall when I’m young, and short when I’m old. What am I?</p>
+<input type="text" id="answer">
+<button onclick="checkAnswer()">Submit</button>
+</body>
+</html>
