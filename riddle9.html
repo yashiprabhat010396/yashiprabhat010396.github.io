@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle 9 - Final Riddle</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+input, button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+button{
+    cursor: pointer;
+}
+</style>
+
+<script>
+function checkAnswer(){
+    let answer = document.getElementById("answer").value.toLowerCase();
+
+    if(answer === "promise"){
+        alert("🎉 Congratulations! You have completed the Riddle Challenge!");
+        window.location.href = "index.html";
+    } 
+    else{
+        alert("Wrong answer! Try again.");
+    }
+}
+</script>
+
+</head>
+
+<body>
+<h2>Final Riddle</h2>
+<p>I am made to be broken. What am I?</p>
+
+<input type="text" id="answer" placeholder="Enter your answer">
+<br>
+<button onclick="checkAnswer()">Submit</button>
+
+</body>
+</html>
