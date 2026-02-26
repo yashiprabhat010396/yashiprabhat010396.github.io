@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle 5</title>
+<style>body{text-align:center;padding:40px;font-family:Arial;}</style>
+<script>
+function checkAnswer(){
+let answer=document.getElementById("answer").value.toLowerCase();
+if(answer==="towel"){
+window.location.href="riddle6.html";
+}else{alert("Wrong answer! Try again.");}
+}
+</script>
+</head>
+<body>
+<h2>Riddle 5</h2>
+<p>What gets wetter the more it dries?</p>
+<input type="text" id="answer">
+<button onclick="checkAnswer()">Submit</button>
+</body>
+</html>
